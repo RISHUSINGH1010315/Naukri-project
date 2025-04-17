@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setLoading, setUser } from '@/redux/authSlice';
 import { Loader2 } from 'lucide-react';
 
-const USER_API_END_POINT = "https://naukri-project-production.up.railway.app";
+const USER_API_END_POINT = "https://naukri-project-production.up.railway.app/api/v1/user";
 
 const Login = () => {
   const [input, setInput] = useState({
